@@ -18,7 +18,7 @@ const corsOptions = {
   optionsSuccessStatus: 200,
 };
 
-app.use("/graphql", cors(corsOptions));
+app.use(cors(corsOptions));
 
 app.use(
   "/graphql",
